@@ -1,0 +1,175 @@
+2a. There are more blocks that appear in the list than those known in the system because
+the difficulty is lower meaning that it is much easier to find blocks. There are so many with the same
+index because there are multiple blocks that are potential fits (aka that pass the difficulty)
+to become the next chain in the block despite not being the block chain itself.
+b. No, the nodes don't exit with the same head of the chain and they don't agree because
+there are multiple blocks with the same indexes that disagree on which should become the next
+head of the chain.
+
+That block was originally minted by the sender 11166b3285125145531a318366e9e0b71c24addd2485ec2d04bc778362283216
+and was received by 73f2e5b47cfca7ea821aa54a268346c0d018c847dce595da9805480dd5b3f98a. The coin that was sent was
+in a block that was indexed at 7.
+
+output:
+node 8000 waiting for genesis block
+node 8002 waiting for genesis block
+node 8003 waiting for genesis block
+node 8004 waiting for genesis block
+node 8005 waiting for genesis block
+node 8001 broadcasting
+node 8005 broadcasting
+node 8003 broadcasting
+node 8002 broadcasting
+node 8004 broadcasting
+node 8004 broadcasting
+node 8004 broadcasting
+node 8005 broadcasting
+node 8000 - length 8 - head 0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a
+node 8002 broadcasting
+node 8001 - length 8 - head 0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a
+node 8005 - length 8 - head 0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a
+node 8003 - length 8 - head 0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a
+node 8004 - length 8 - head 0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a
+node 8002 - length 8 - head 00006c0c43c99b0be318c532c559ea960c1d0cf41f09249e95d57254ef1b3bad
+{'00001ef073145873cbcca8de843ae5208e1783797cec181edc3f44b1f13101b9': {'header': {'index': 2,
+                                                                                 'nonce': '12f28b9926fa780e492c56528b39a9de4bf8df90d71d15fdd2b8b5b4e5277e93',
+                                                                                 'parent': '780e86d8256b8ca254adcdef3c2822d82e5b3ceed25d1a9525017bc75e3baa1e',
+                                                                                 'timestamp': 1587182672.417786},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '1c97583326dd0c285c8a11713865d75240f9216cd82936f1d055d59cbf1f5c44',
+                                                                                                 'signature': '91f80cc06f5cf66be8f53786f42197d68f54a9e4d9f2c87bf38785259a2caa30eab5b017ed8e19a5c145bc70c8f75d293c83039c7c6a57bd504879e2dc519c9'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8003}},
+                                                                                       {'data': {'digest': '92acb5fd32228e587a8cf32817dc7fd8e46f786cc1cbb099096884e42027897a',
+                                                                                                 'recipient': '73f2e5b47cfca7ea821aa54a268346c0d018c847dce595da9805480dd5b3f98a',
+                                                                                                 'signature': '2202abbc886c7fed3ebf7e3314bfdeb88f63bdb7eb5e806b8fd727fa7d2c34581f9c74e917a100045c3eacdeb7cf69ada3ac0139b0f419295ca3bf281e958a2'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8003}}]},
+ '0000343b1c0ae9a3a4e7e97d02b680dcb0412946b1477577a60787cedc77336a': {'header': {'index': 7,
+                                                                                 'nonce': '6d4302690f4f57ba0cb8fe7aa438ec8c011a0dbaf31bec0586f8edcc2898b246',
+                                                                                 'parent': '7b7c33049e5d5d44b57c09f01c3d6f19750aa9c8565c380ba2a3f17064796e96',
+                                                                                 'timestamp': 1587182756.5045004},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '053f82d31ceba04047ce877e97bd6bf9e54fa461a942d457b112bd0a4298adf5',
+                                                                                                 'signature': '620315c909003f60f5b45ce2a9764c9d277c300bf0782b095ae5bc5d968d535e119a98fb534fc56d2a7935f807b2d863c3465610ff09598b11ef60b5e686c1f'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8005}},
+                                                                                       {'data': {'digest': '573b4e1eca6a32749d2fcc8acba388a5a77c0d5af39dea08021a29aab5b70ca8',
+                                                                                                 'recipient': '9d83e3dd141e5a93d846d5ad2a21a0a508c4effb77812bf0455566b401429bb9',
+                                                                                                 'signature': '23feb97970c1aad32e1475e1e7ea049f66b17e94af13ffefc277128495b366a8ffb69f7d5785cbc0af0686bf023cc894e956d83eec871b457afe90eefb4a5f6'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8005}}]},
+ '0000544eeda8577b521122072c546a17252dd75e111b81aea58578e4aa74eecc': {'header': {'index': 0,
+                                                                                 'nonce': '457d1add5705ec1a2ca4759a01e380b0a25e36b208781dfb3243010256ef8b4d',
+                                                                                 'parent': '5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9',
+                                                                                 'timestamp': 1587182659.1529224},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '4c2cae6ba139ce54c0738031f17fb51255493e2c9b37a73d9ad80bd91e430fea',
+                                                                                                 'signature': '27e1d847c7b9b429007c2edc1a5c4ae28a8ddd6778e7b4f98e5b3f30bcf37d3a920df138e358cd25d3d877e6ab1e0d20c51d3c4f439e7282a932b47aa636a4d'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8001}}]},
+ '00005604337a763ef5e2699b7ecacd255a4e904a67091411a0ee0e2fbe1b7df7': {'header': {'index': 3,
+                                                                                 'nonce': '4b7dde3a4e2ace7ad3acad00b90c60ebbdaaabfc1dbd9dd14f330b663da3df0b',
+                                                                                 'parent': '2816a2f5f3a82e5b103ec43d0b9837004d5c9beb197f6f92d650b737cdcf5d8c',
+                                                                                 'timestamp': 1587182679.9705298},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '73f2e5b47cfca7ea821aa54a268346c0d018c847dce595da9805480dd5b3f98a',
+                                                                                                 'signature': 'adbeb010739562c35c29a6fb10fa9c1e05e983ccf01dc5c8cda6205036240e8483e7da678879502729794388d37ae22e70b9b7ac8c94f1014508d4600b9c7f7'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8002}},
+                                                                                       {'data': {'digest': '1e835f542a2cd188b78110a440d87000890e14e73b4bb286e00f10b19dcaa574',
+                                                                                                 'recipient': '11166b3285125145531a318366e9e0b71c24addd2485ec2d04bc778362283216',
+                                                                                                 'signature': '7ee98a54e55e1ada754abc6f0f69d4e76a3ad82c4a45f63b5f82effb3e2d6a06c6cd2239f4170593885bbae27ef2938ef323e784b28e67796bf4a4ab1c3041b'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8002}}]},
+ '0000592c3b41b426f657283008d86235b091db9770b82aaa35b8fdfbd0d49759': {'header': {'index': 4,
+                                                                                 'nonce': '4bbdf27a93ddb3c9531fd305c6ff41d254accd0b1fe98584f5b211e8b1b9efed',
+                                                                                 'parent': 'bf43865b584d5f19e96405970aa40bfa8b3c15ad9929ca520df93a8458a05c64',
+                                                                                 'timestamp': 1587182693.8344226},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '9d83e3dd141e5a93d846d5ad2a21a0a508c4effb77812bf0455566b401429bb9',
+                                                                                                 'signature': '670734f56ed7eab7494501dd9e31bab1ac5fb2ed3e2600823d6d3d7aab25b5903896d7dc8a431103e8a6846f35bb089592839fe5c7b0ce80f52615efaf3287f'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8004}},
+                                                                                       {'data': {'digest': 'faedb1cd5f8cc21d7fe1e19bd1a89074f0a87a141c31c1c99bf99d0437c5f054',
+                                                                                                 'recipient': '1c97583326dd0c285c8a11713865d75240f9216cd82936f1d055d59cbf1f5c44',
+                                                                                                 'signature': '65f04529b2c8732b880765b21ceca25a4ffc7f00a2461d3d87ebdac8ce48f63fe9a9c6f2bafa44e51bec99850c1368934cfe22046fe2aee07b7087acedef759'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8004}}]},
+ '0000606357df470588b21383fb619bb1c7842f5146151eec827149fdfb722775': {'header': {'index': 1,
+                                                                                 'nonce': '02e41d4c82f0a9eb8d46dc92251fa42fcf585d2135e09f46dc33db970d6945ac',
+                                                                                 'parent': '9f1e403e9184d440b06e771c07ef953802d28cb36dba65d05545fb4b071ef49b',
+                                                                                 'timestamp': 1587182671.7359543},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '053f82d31ceba04047ce877e97bd6bf9e54fa461a942d457b112bd0a4298adf5',
+                                                                                                 'signature': '620315c909003f60f5b45ce2a9764c9d277c300bf0782b095ae5bc5d968d535e119a98fb534fc56d2a7935f807b2d863c3465610ff09598b11ef60b5e686c1f'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8005}},
+                                                                                       {'data': {'digest': '573b4e1eca6a32749d2fcc8acba388a5a77c0d5af39dea08021a29aab5b70ca8',
+                                                                                                 'recipient': '9d83e3dd141e5a93d846d5ad2a21a0a508c4effb77812bf0455566b401429bb9',
+                                                                                                 'signature': '23feb97970c1aad32e1475e1e7ea049f66b17e94af13ffefc277128495b366a8ffb69f7d5785cbc0af0686bf023cc894e956d83eec871b457afe90eefb4a5f6'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8005}}]},
+ '00006c0c43c99b0be318c532c559ea960c1d0cf41f09249e95d57254ef1b3bad': {'header': {'index': 7,
+                                                                                 'nonce': '45b8ebdc805e1c5caec86833356d315aedc3b159320c37f7bfc141a389ea9975',
+                                                                                 'parent': '7b7c33049e5d5d44b57c09f01c3d6f19750aa9c8565c380ba2a3f17064796e96',
+                                                                                 'timestamp': 1587182756.7139225},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '73f2e5b47cfca7ea821aa54a268346c0d018c847dce595da9805480dd5b3f98a',
+                                                                                                 'signature': 'adbeb010739562c35c29a6fb10fa9c1e05e983ccf01dc5c8cda6205036240e8483e7da678879502729794388d37ae22e70b9b7ac8c94f1014508d4600b9c7f7'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8002}},
+                                                                                       {'data': {'digest': '1e835f542a2cd188b78110a440d87000890e14e73b4bb286e00f10b19dcaa574',
+                                                                                                 'recipient': '11166b3285125145531a318366e9e0b71c24addd2485ec2d04bc778362283216',
+                                                                                                 'signature': '7ee98a54e55e1ada754abc6f0f69d4e76a3ad82c4a45f63b5f82effb3e2d6a06c6cd2239f4170593885bbae27ef2938ef323e784b28e67796bf4a4ab1c3041b'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8002}}]},
+ '00006c7ea165f307df88d176e751fd4510bc1aab7b6a8e8fd5f1d3fd7dd2b65f': {'header': {'index': 6,
+                                                                                 'nonce': 'b0612e0422fe567fd11c3289b1225b4ab598a1a84000d83e11f20362466a61bf',
+                                                                                 'parent': 'e8d1ad8640b9a29f668a82c8a6ed91591f532372f6f7b44410f515008b888fdb',
+                                                                                 'timestamp': 1587182750.819768},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '9d83e3dd141e5a93d846d5ad2a21a0a508c4effb77812bf0455566b401429bb9',
+                                                                                                 'signature': '670734f56ed7eab7494501dd9e31bab1ac5fb2ed3e2600823d6d3d7aab25b5903896d7dc8a431103e8a6846f35bb089592839fe5c7b0ce80f52615efaf3287f'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8004}},
+                                                                                       {'data': {'digest': 'faedb1cd5f8cc21d7fe1e19bd1a89074f0a87a141c31c1c99bf99d0437c5f054',
+                                                                                                 'recipient': '1c97583326dd0c285c8a11713865d75240f9216cd82936f1d055d59cbf1f5c44',
+                                                                                                 'signature': '65f04529b2c8732b880765b21ceca25a4ffc7f00a2461d3d87ebdac8ce48f63fe9a9c6f2bafa44e51bec99850c1368934cfe22046fe2aee07b7087acedef759'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8004}}]},
+ '00007289858eecda8fb93ed1c8b5a00e9357bffde33526e4ee2dcde740123303': {'header': {'index': 5,
+                                                                                 'nonce': 'a40df2fb33b742328468e2f211c29a3b916cf9e24a2ce398806c34e7aac3208a',
+                                                                                 'parent': 'ecf1526b4ed6567a22abecfc81da1f8226c770236d4ad9ad9284fdece2434b9c',
+                                                                                 'timestamp': 1587182722.198251},
+                                                                      'transactions': [{'data': {'digest': '8f93a88dd0deb94d6b9f8ba86701aed9a9810ecc23e9d76ef6c84b24bebad118',
+                                                                                                 'recipient': '9d83e3dd141e5a93d846d5ad2a21a0a508c4effb77812bf0455566b401429bb9',
+                                                                                                 'signature': '670734f56ed7eab7494501dd9e31bab1ac5fb2ed3e2600823d6d3d7aab25b5903896d7dc8a431103e8a6846f35bb089592839fe5c7b0ce80f52615efaf3287f'},
+                                                                                        'metadata': {'mined': False,
+                                                                                                     'prev_txn_index': 0,
+                                                                                                     'sender': 8004}},
+                                                                                       {'data': {'digest': 'faedb1cd5f8cc21d7fe1e19bd1a89074f0a87a141c31c1c99bf99d0437c5f054',
+                                                                                                 'recipient': '1c97583326dd0c285c8a11713865d75240f9216cd82936f1d055d59cbf1f5c44',
+                                                                                                 'signature': '65f04529b2c8732b880765b21ceca25a4ffc7f00a2461d3d87ebdac8ce48f63fe9a9c6f2bafa44e51bec99850c1368934cfe22046fe2aee07b7087acedef759'},
+                                                                                        'metadata': {'mined': True,
+                                                                                                     'prev_txn_index': 1,
+                                                                                                     'sender': 8004}}]}}
+
+verified last non-mining transaction: 11166b3285125145531a318366e9e0b71c24addd2485ec2d04bc778362283216 sent 73f2e5b47cfca7ea821aa54a268346c0d018c847dce595da9805480dd5b3f98a a coin in block indexed 7
+
+Process finished with exit code 0
